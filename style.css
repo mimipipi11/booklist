@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.books {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+
+.submit-btn {
+    margin: 20px;
+    align-items: center;
+    width: 300px;
+    padding: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.submit-btn:hover {
+    background:linear-gradient(to top left, rgb(40, 168, 241), rgb(77, 221, 137), rgb(77, 118, 156) )
+}
+
+
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50vw;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.table-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+    
+    
+}
+
+tr {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.hapus, .exit {
+    width: 10px;
+}
+
+.exit {
+    border: none;
+}
+
+
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;    
+}
+
+body {
+    background:linear-gradient(to top left, rgb(40, 168, 241), rgb(77, 221, 137), rgb(77, 118, 156) )
+}
+
+
+
+
+
+.title {
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.code {
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.author {
+    border-radius: 7px;
+    padding: 3px;
+}
+
+
+.first-tr {
+    font-size: 1.2rem;
+    padding: 1px;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+
+    .table-section{
+        width: 100vw;
+    }
+}
